@@ -1,7 +1,7 @@
 ---
 title: "Santé humaine liée à l'obésité"
 format: gfm
-editor: visual
+editor: source
 lang: fr
 bibliography: bibliography/references.bib
 ---
@@ -27,7 +27,7 @@ Votre progression se fera en plusieurs étapes réparties entre le module 7 et l
 
 ### Module 7
 
--   Commencez par rechercher les éléments intéressants (indices) dans la référence fournie dans le dossier `bibliography` et prenez note de l'endroit où ils se trouvent. Recherchez au moins un indices différent pour chaque étudiant et attribuez-vous à chacun un indice à présenter et à calculer.
+-   Commencez par rechercher les éléments intéressants (indices) dans la référence fournie dans le dossier `bibliography` et prenez note de l'endroit où ils se trouvent. Recherchez au moins un indice différent pour chaque étudiant et attribuez-vous à chacun un indice à présenter et à calculer.
 
 -   Compléter le fichier `R/import_tidy.R` pour récupérer les données localement. Vous devez également y ajouter les labels et les unités en utilisant le dictionnaire des données.
 

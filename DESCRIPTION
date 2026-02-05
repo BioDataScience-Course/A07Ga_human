@@ -1,6 +1,6 @@
 Package: A07Ga_human
 Type: Package
-Version: 2.0.0
+Version: 2.1.0
 Title: Santé humaine liée à l'obésité
 Description: Projet en groupe des modules 7 à 10 du cours SDD I à l'UMONS
 Authors@R: c(
@@ -11,9 +11,9 @@ Authors@R: c(
     email = "phgrosjean@sciviews.org",
     comment = c(ORCID = "0000-0002-2694-9471"))
   )
-Depends: R (>= 4.3.3)
-SystemRequirements: SciViews Box 2024 (https://www.sciviews.org/software/svbox/)
-License:CC BY-NC-SA 4.0
+Depends: R (>= 4.4.0)
+SystemRequirements: SciViews Box 2025 (https://www.sciviews.org/software/svbox/)
+License: CC BY-NC-SA 4.0
 URL: https://github.com/BioDataScience-Course/A07Ga_human
 BugReports: https://github.com/BioDataScience-Course/A07Ga_human/issues
 Encoding: UTF-8

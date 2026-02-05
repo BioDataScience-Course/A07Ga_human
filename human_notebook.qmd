@@ -19,6 +19,9 @@ bibliography: bibliography/references.bib
 if (!"tools:tests" %in% search())
   source(here::here("tests/tools_tests.R"), attach(NULL, name = "tools:tests"))
 
+# Configure Knitr pour utiliser AGG comme périphérique graphique
+knitr::opts_chunk$set(dev = "ragg_png")
+
 # Configuration de l'environnement SciViews::R
 SciViews::R(___, lang = "fr")
 ```
@@ -33,7 +36,17 @@ Au cours des dernières décennies, la santé humaine a connu un déclin alarman
 
 Les données ont été collectées par un groupe d'une trentaine d'expérimentateurs qui se sont réparti le travail. Le choix des mesures à réaliser a fait l'objet d'un consensus au sein du groupe par l'élaboration d'un dictionnaire des données commun. Les mesures sujettes à variation (la masse plus particulièrement) ont fait l'objet d'une intercalibration. Ces données sont pseudonymisées afin de respecter l'anonymat des sujets étudiés en respect du RGPD (règlement général de la protection des données, règlement d'application en Europe).
 
-La description des données et les tests statistiques sont réalisés dans la SciViews Box 2024 en utilisant [Saturn Cloud](https://saturncloud.io) (Linux) avec le [logiciel R](https://www.r-project.org) (`r R.version.string`).
+La description des données et les tests statistiques sont réalisés dans la SciViews Box 2025 en utilisant [Saturn Cloud](https://saturncloud.io) (Linux) avec le [logiciel R](https://www.r-project.org) (`r R.version.string`).
+
+<!--% Spécifier si vous avez employé l'intelligence artificielle dans votre projet. -->
+
+```{r ai_comment, output='asis'}
+select_answer(r"-{
+[] -   Ce document a été rédigé en étant assisté par l'Intelligence Artificielle.
+[] -   Ce document a été rédigé sans recours à l'Intelligence Artificielle.}-")
+```
+
+<!-- Précisez ci-dessous l'utilisation que vous avez faite de l'IA. Citez le modèle utilisé. -->
 
 # Résultats
 
