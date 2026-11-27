@@ -6,7 +6,7 @@ Description: Projet en groupe des modules 7 à 10 du cours SDD I à l'UMONS
 Authors@R: c(
   person("Guyliann", "Engels", role = c("aut", "cre"),
     email = "guyliann.engels@umons.ac.be",
-    comment = c(ORCID = "0000-0001-9514-1014"),
+    comment = c(ORCID = "0000-0001-9514-1014")),
   person("Philippe", "Grosjean", role = "aut",
     email = "phgrosjean@sciviews.org",
     comment = c(ORCID = "0000-0002-2694-9471"))
